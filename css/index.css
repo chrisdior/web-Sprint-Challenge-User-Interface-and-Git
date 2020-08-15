@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+header article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -143,4 +143,30 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.street{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgwrap{
+    width: 50%;
+    margin:auto
+}
+
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navi{
+    display:flex;
+    justify-content: center;
+}
+
+.middle-content .box{
+    background:teal
 }
