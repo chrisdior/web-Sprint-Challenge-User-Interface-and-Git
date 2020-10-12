@@ -291,55 +291,52 @@ a{
 
 /* About */
 
-.about-page .about{
-    border-bottom: 1px dashed black;
-    margin: 2% auto;
-
+.about-section {
+    border-bottom: 1px dotted black;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
-.about-page h1, p{
-    margin: 2%;
-}
-
-.big-box{
-    border: 1px solid black;
+.bottom-row,
+.top-row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
 }
 
-.small-box{
-    width: 50%;
-    width: 46%;
-    margin: 1% auto;
-
+.content-box {
+    border-bottom: 1px dotted black;
+    padding-bottom: 1em;
 }
 
-.big-box p{
-    margin: 1% 0 0 0;
-
+button {
+    background-color: white;
+    border-radius: 4px;
+    padding: .5em 1.5em;
+    border-color: black;
 }
 
-.big-box h2{
-    margin-top: 3%;
+.work-together {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 2em;
 }
 
-.big-box h3 {
-    border: 3px solid black;
+img {
+    padding-bottom: 1em;
+}
+
+.nav-links{
     display: flex;
     justify-content: center;
-    width: 35%;
-    margin: 3% 0;
-    padding: 2%;
-    border-radius: 10px;
 }
-.big-box .border {
-    border-top: 1px dashed black;
-    padding-top: 10%;
+
+.hero-image{
+padding: 5%;
+margin-bottom: -10%;
+margin-top:25%;
+/* justify-content: center;
+display: flex; */
+display: block;
+
 }
-.about-page .work {
-    border-top: 1px dashed black;
-    width: 95%;
-    margin: 1% auto;
-    padding: 4%;
-} 
