@@ -24,12 +24,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+header article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -101,7 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +111,16 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+    font-weight: bold;
 }
 
 .bottom-content {
@@ -143,4 +154,189 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.street{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgwrap{
+    width: 100%;
+display: flex;
+margin:3% 3;
+}
+
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+
+p{
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.navi{ 
+ justify-content: space-around;
+ padding: 1%;
+ margin-top: 3%;
+ font-weight: bold;
+}
+
+li{
+    display: inline;
+    padding:2%;
+    
+
+}
+
+h1, h2, h3{
+    font-weight: bold;
+}
+
+ul{
+    text-align: center;
+    color:black
+    
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+.container1{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container{
+    width: 40%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.middle-content{
+    margin-bottom: 21px;
+    border-bottom: 1px dashed black;
+
+}
+
+.middle-content h2{
+    padding: 0 2%;
+    margin-bottom: 0;
+
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.bottom-content{
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container{
+    margin:5%
+}
+
+.bottom-content.text-container:last-child{
+    padding-right:0%
+}
+
+/* About */
+
+.about-section {
+    border-bottom: 1px dotted black;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.bottom-row,
+.top-row {
+    display: flex;
+    width: 100%;
+    padding: 1em;
+}
+
+.content-box {
+    border-bottom: 1px dotted black;
+    padding-bottom: 1em;
+}
+
+button {
+    background-color: white;
+    border-radius: 4px;
+    padding: .5em 1.5em;
+    border-color: black;
+}
+
+.work-together {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 2em;
+}
+
+img {
+    padding-bottom: 1em;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image{
+padding: 5%;
+margin-bottom: -10%;
+margin-top:25%;
+/* justify-content: center;
+display: flex; */
+display: block;
+
 }
